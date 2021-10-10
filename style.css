@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(235,182,96),rgb(173,31,173),rgb(143,31,173));
+}
+.container{
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.3),
+    10px 10px 15px rgba(0,0,0,0.3);
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.DisplayImage{
+    width:500px;
+    height: 500px;
+    background-image: url('Background1.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.Login{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color:rgb(255,255,255);
+}
+h1{
+    color:rgb(0,0,0);
+    margin-bottom:10px;
+}
+.inputbox{
+    background-color:rgb(203,206,212);
+    width: 400px;
+    height:40px;
+    margin:20px 0px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    padding:0px 20px;
+    font-size: 20px;
+}
+input{
+    width:360px;
+    margin-left: 10px;
+    font-size:18px;
+    color:rgb(0,0,0);
+    border:none;
+    outline:none;
+    padding:5px;
+    background-color: transparent;
+}
+.Loginbutton{
+    width:435px;
+    height: 40px;
+    background-image:linear-gradient(to right, rgb(235,182,96),rgb(173,31,173),rgb(143,31,173));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+input[type="submit"]{
+    color:#fff;
+    font-size:20px;
+    font-weight: 30px;
+
+}
+p{
+    color:#ccc;
+    margin:10px 0px;
+    text-align: right;
+}
+.createaccount{
+    position: relative;
+    top:90px;
+    color:#ccc;
+}
